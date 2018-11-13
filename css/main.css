@@ -10,6 +10,24 @@ body {
 
 /* 
 ==========================================
+Navbar: Logo
+==========================================
+*/
+
+nav .brand-logo {
+  position: absolute;
+  width: 112px;
+  height: 179px;
+  left: 40px;
+  top: 0px;
+}
+
+nav ul a span.about-nav {
+  position: right;
+}
+
+/* 
+==========================================
 Navbar: Large Device
 ==========================================
 */
