@@ -14,6 +14,12 @@ Navbar: Logo
 ==========================================
 */
 
+nav ul a {
+  color: white;
+  opacity: 0.6;
+  font-size: 14px;
+}
+
 nav .brand-logo {
   position: absolute;
   width: 112px;
@@ -22,8 +28,20 @@ nav .brand-logo {
   top: 0px;
 }
 
-nav ul a span.about-nav {
-  position: right;
+nav ul span.about-nav {
+  position: absolute;
+  width: 76px;
+  height: 87px;
+  right: 40px;
+  top: 5px;  
+}
+
+nav .nav-wrapper {
+  position: absolute;
+  height: 87px;
+  left: 0px;
+  right: 0px;
+  /* top: 5px; */
 }
 
 /* 
@@ -59,6 +77,7 @@ Navbar: Small Device
 
 .sidenav li>a {
   color: white;
+  opacity: 0.6;
   display: block;
   text-transform: uppercase;
   font-size: 14px;
