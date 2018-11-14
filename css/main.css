@@ -20,7 +20,7 @@ nav ul a {
   font-size: 14px;
 }
 
-nav .brand-logo {
+nav .brand-logo.logo {
   position: absolute;
   width: 112px;
   height: 179px;
@@ -33,15 +33,19 @@ nav ul span.about-nav {
   width: 76px;
   height: 87px;
   right: 40px;
-  top: 5px;  
+  /* top: 5px;   */
 }
 
-nav .nav-wrapper {
+/* nav .nav-wrapper {
   position: absolute;
   height: 87px;
   left: 0px;
   right: 0px;
-  /* top: 5px; */
+  top: 5px;
+} */
+
+nav ul.left {
+  margin-left: 50px;
 }
 
 /* 
