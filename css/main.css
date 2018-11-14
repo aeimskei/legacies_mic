@@ -14,12 +14,6 @@ Navbar: Logo
 ==========================================
 */
 
-nav ul a {
-  color: white;
-  opacity: 0.6;
-  font-size: 14px;
-}
-
 nav .brand-logo.logo {
   position: absolute;
   width: 112px;
@@ -44,9 +38,6 @@ nav ul span.about-nav {
   top: 5px;
 } */
 
-nav ul.left {
-  margin-left: 50px;
-}
 
 /* 
 ==========================================
@@ -56,13 +47,16 @@ Navbar: Large Device
 
 nav ul.left {
   float: left;
+  margin-left: 50px;
   padding-left: 130px;
 }
 
 nav ul a {
+  color: white; 
+  opacity: 0.6;
   text-transform: uppercase;
-  font-weight: bold;
   font-size: 14px;
+  font-weight: bold;
 }
 
 nav ul li:hover {
@@ -95,8 +89,10 @@ Navbar: Small Device
   background-color: #424242;
 }
 
-nav .brand-logo {
+nav a.brand-logo.brand-small {
   font-size: 16px;
   font-weight: bold;
   text-transform: uppercase;
+  color: white;
+  opacity: 0.6;
 }
