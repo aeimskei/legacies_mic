@@ -8,6 +8,24 @@ body {
   font-family: 'Lato', sans-serif;
 }
 
+h1 {
+  position: absolute;
+  width: 1200px;
+  height: 126px;
+  right: 54px;
+  top: 111px;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 72px;
+  text-align: right;
+  text-transform: uppercase;
+  
+  color: #333333;
+}
+
 /* 
 ==========================================
 Navbar: Logo
