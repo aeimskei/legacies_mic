@@ -30,3 +30,40 @@ body {
   left: 664px;
   top: 0px;
 }
+
+#home-title {
+  position: absolute;
+  width: 1108px;
+  height: 100px;
+  left: calc(50% - 1108px/2);
+  top: 311px;
+
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
+
+  text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+
+#home-subtitle {
+  position: absolute;
+  width: 960px;
+  height: 75px;
+  left: 240px;
+  top: 411px;
+
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 30px;
+  text-align: center;
+
+  color: #FFFFFF;
+}
