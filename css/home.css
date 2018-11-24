@@ -3,10 +3,30 @@
 Responsive Background Image
 ==========================================
 */
-html { 
+body { 
   background: url('../img/background/bombies.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+}
+
+.background-overlay {
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  /* top: 2px; */
+  left: 0;
+  background:#000000;
+  mix-blend-mode: hard-light;
+  opacity: 0.5;
+  backdrop-filter: blur(99px);
+}
+
+#home-logo {
+  position: absolute;
+  width: 112px;
+  height: 179px;
+  left: 664px;
+  top: 0px;
 }
