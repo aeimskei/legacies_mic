@@ -11,9 +11,15 @@ body {
   background-size: cover;
 }
 
+/* 
+==========================================
+Overlay on Background Image
+==========================================
+*/
+
 .background-overlay {
-  height: 100vh;
-  width: 100vw;
+  width: 1440px;
+  height: 1024px;
   position: absolute;
   left: 0;
   background:#000000;
@@ -22,6 +28,12 @@ body {
   backdrop-filter: blur(99px);
 }
 
+/* 
+==========================================
+Logo for Home Page
+==========================================
+*/
+
 #home-logo {
   position: absolute;
   width: 112px;
@@ -29,6 +41,12 @@ body {
   left: 664px;
   top: 0px;
 }
+
+/* 
+==========================================
+Credits Button for Home Page
+==========================================
+*/
 
 #credits {
   /* rectangle shape */
@@ -50,6 +68,12 @@ body {
   opacity: 0.6;
   padding-top: 10px;
 }
+
+/* 
+==========================================
+Title & Subtitle for Home Page
+==========================================
+*/
 
 #home-title {
   position: absolute;
@@ -85,4 +109,112 @@ body {
   font-size: 30px;
   text-align: center;
   color: #FFFFFF;
+}
+
+/* 
+==========================================
+Navigation Cards for Home Page
+==========================================
+*/
+
+.home-nav-title {
+  position: absolute;
+  left: 9.03%;
+  right: 8.68%;
+  top: 60%;
+  bottom: 30.83%;
+  
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;  
+  z-index: 2;
+}
+
+.home-menu-img {
+  position: absolute;
+  left: 18.75%;
+  right: 18.75%;
+  top: 12.5%;
+  bottom: 50%;
+
+  background: url('../img/background/oralstories.png');
+  border: 4px solid #FFFFFF;
+  box-sizing: border-box;
+  border-radius: 50%;
+  z-index: 2;
+}
+
+.home-nav-content {
+  position: absolute;
+  left: 9.03%;
+  right: 8.68%;
+  top: 69.17%;
+  bottom: 2.92%;
+
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  text-align: center;
+  color: #C4C4C4;
+  z-index: 2;
+}
+
+.rectangle {
+  position: absolute;
+  left: 0%;
+  right: 0%;
+  top: 31.67%;
+  bottom: 0%;
+
+  background: rgba(0, 0, 0, 0.5);
+  mix-blend-mode: hard-light;
+  opacity: 0.9;
+  backdrop-filter: blur(60px);
+}
+
+#oral-menu {
+  position: absolute;
+  width: 288px;
+  height: 480px;
+  left: 0px;
+  top: 544px;
+}
+
+#danger-menu {
+  position: absolute;
+  width: 288px;
+  height: 480px;
+  left: 289px;
+  top: 544px;
+}
+
+#military-menu {
+  position: absolute;
+  width: 288px;
+  height: 480px;
+  left: 578px;
+  top: 544px;
+}
+
+#diaspora-menu {
+  position: absolute;
+  width: 288px;
+  height: 480px;
+  left: 867px;
+  top: 544px;
+}
+
+#uxo-menu {
+  position: absolute;
+  width: 288px;
+  height: 480px;
+  left: 1156px;
+  top: 544px;
 }
