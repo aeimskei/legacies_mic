@@ -3,7 +3,7 @@
 Responsive Background Image
 ==========================================
 */
-html { 
+body { 
   background: url('../img/background/oralstories.png') no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -11,14 +11,29 @@ html {
   background-size: cover;
 }
 
+/* 
+==========================================
+Overlay on Background Image
+==========================================
+*/
+
 .background-overlay {
-  height: 100vh;
-  width: 100vw;
+  width: 1440px;
+  height: 1024px;
   position: absolute;
-  top: 2px;
   left: 0;
-  background: #F2F2F2;
+  background:#000000;
   mix-blend-mode: hard-light;
-  opacity: 0.9;
+  opacity: 0.5;
   backdrop-filter: blur(99px);
+}
+
+/* 
+==========================================
+Content
+==========================================
+*/
+
+.oralstories-content {
+  color: #FFFFFF;
 }

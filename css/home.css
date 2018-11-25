@@ -18,10 +18,10 @@ Overlay on Background Image
 */
 
 .background-overlay {
-  width: 1440px;
+  width: 1445px;
   height: 1024px;
   position: absolute;
-  left: 0;
+  left: 0px;
   background:#000000;
   mix-blend-mode: hard-light;
   opacity: 0.5;
@@ -227,6 +227,7 @@ Navigation Card Position for Home Page
 ==========================================
 */
 
+/* oral histories */
 #oral-menu {
   position: absolute;
   width: 288px;
@@ -235,6 +236,7 @@ Navigation Card Position for Home Page
   top: 544px;
 }
 
+/* everday dangers */
 #danger-menu {
   position: absolute;
   width: 288px;
@@ -243,6 +245,7 @@ Navigation Card Position for Home Page
   top: 544px;
 }
 
+/* military operations */
 #military-menu {
   position: absolute;
   width: 288px;
@@ -251,6 +254,7 @@ Navigation Card Position for Home Page
   top: 544px;
 }
 
+/* lao diaspora */
 #diaspora-menu {
   position: absolute;
   width: 288px;
@@ -259,6 +263,7 @@ Navigation Card Position for Home Page
   top: 544px;
 }
 
+/* uxo removal */
 #uxo-menu {
   position: absolute;
   width: 288px;

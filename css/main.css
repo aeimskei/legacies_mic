@@ -1,116 +1,146 @@
 /* 
 ==========================================
-General Styling
+Header Title
 ==========================================
 */
 
-body {
-  font-family: 'Lato', sans-serif;
+h1.page-title {
+  /* position: absolute; */
+  left: 0%;
+  right: 0%;
+  top: 0%;
+  bottom: -23.33%;
+
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
 }
 
-h1 {
-  position: absolute;
-  width: 1200px;
-  height: 126px;
-  right: 54px;
-  top: 111px;
-  
+/* 
+==========================================
+Subtitle
+==========================================
+*/
+
+p.page-subtitle {
+  /* position: absolute; */
+  width: 960px;
+  height: 145px;
+  left: 200px;
+  top: 94px;
+
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+/* 
+==========================================
+Menu Bar
+==========================================
+*/
+
+/* Make Sticky Menu Bar */
+.menu-bar {
+  background-color: #333;
+  overflow: hidden;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 87px;
+  left: 0px;
+  right: 0px;
+}
+
+/* Style the Links Inside the Menu Bar */
+.menu-bar a {
+  float: left;
+  display: block;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 35px 5px;
+  text-decoration: none;
+
   font-family: Josefin Sans;
   font-style: normal;
   font-weight: bold;
   line-height: normal;
-  font-size: 72px;
-  text-align: right;
+  font-size: 14px;
+  text-align: center;
   text-transform: uppercase;
-  
-  color: #333333;
+
+  color: #FFFFFF;
+  opacity: 0.6;
 }
 
-/* 
-==========================================
-Navbar: Logo
-==========================================
-*/
-
-nav .brand-logo.logo {
+/* home link */
+.home-menu-link {
   position: absolute;
-  width: 112px;
-  height: 179px;
-  left: 40px;
-  top: 0px;
+  width: 76px;
+  height: 87px;
+  right: 1324px;
+  top: 2px;
 }
 
-nav ul span.about-nav {
+/* oral stories link */
+.oral-menu-link {
+  position: absolute;
+  width: 117px;
+  height: 87px;
+  left: 336px;
+  top: 2px;
+}
+
+/* everyday dangers link */
+.dangers-menu-link {
+  position: absolute;
+  width: 161px;
+  height: 87px;
+  left: 469px;
+  top: 2px;
+}
+
+/* military operations link */
+.military-menu-link {
+  position: absolute;
+  width: 174px;
+  height: 87px;
+  left: 646px;
+  top: 2px;
+}
+
+/* lao diaspora link */
+.diaspora-menu-link {
+  position: absolute;
+  width: 126px;
+  height: 87px;
+  left: 836px;
+  top: 2px;
+}
+
+/* uxo removal link */
+.uxo-menu-link {
+  position: absolute;
+  width: 126px;
+  height: 87px;
+  left: 978px;
+  top: 2px;
+}
+
+/* credits link */
+.credits-menu-link {
   position: absolute;
   width: 76px;
   height: 87px;
   right: 40px;
-  /* top: 5px;   */
-}
-
-/* nav .nav-wrapper {
-  position: absolute;
-  height: 87px;
-  left: 0px;
-  right: 0px;
-  top: 5px;
-} */
-
-
-/* 
-==========================================
-Navbar: Large Device
-==========================================
-*/
-
-nav ul.left {
-  float: left;
-  margin-left: 50px;
-  padding-left: 130px;
-}
-
-nav ul a {
-  color: white; 
-  opacity: 0.6;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
-}
-
-nav ul li:hover {
-  background-color: #424242;
-}
-
-/* 
-==========================================
-Navbar: Small Device
-==========================================
-*/
-
-.sidenav {
-  padding-top: 3rem;
-}
-
-.sidenav li>a {
-  color: white;
-  opacity: 0.6;
-  display: block;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: 500;
-  height: 48px;
-  line-height: 48px;
-  padding: 0 32px;
-}
-
-.sidenav li:hover {
-  background-color: #424242;
-}
-
-nav a.brand-logo.brand-small {
-  font-size: 16px;
-  font-weight: bold;
-  text-transform: uppercase;
-  color: white;
-  opacity: 0.6;
+  top: 2px;
 }
