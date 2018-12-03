@@ -1,113 +1,84 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Lato:400,700" rel="stylesheet">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/home.css">
-  <meta charset="UTF-8">
   <!--Let browser know website is optimized for mobile-->
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400|Lato:åå400,700" rel="stylesheet">
+  <!-- Custom Style CSS -->
+  <link rel="stylesheet" href="styles/custom.css">
   <!-- Icon for Browser Tab -->
-  <link rel="shortcut icon" type="image/png" href="img/logo/logo_400x400.png" />
+  <link rel="shortcut icon" type="image/png" href="images/logo_400x400.png" />
   <title>Legacies MIC | Home</title>
 </head>
-<body id="home">
-  
-  <!-- ============================================================= -->
-  <!-- BACKGROUND OVERLAY -->
-  <!-- ============================================================= -->
+<body>
 
-  <div class="background-overlay"></div>
+  <header class="main-header">
+    <img id="home-logo" src="images/logo.png" alt="Legacies of War Logo">
+    <a id="credits-btn" class="button" href="#">Credits</a>
+  </header><!--/.main-header--> 
 
+  <div class="main-content">
+    <h1 class="heading">Multimedia Experience</h1>
+    <p class="subtitle">This experience serves to educate the public about the U.S.-led secret war carried out in Laos from the mid 1960s through the 1970s.</p><!--/.main-content--> 
+  </div>  
 
-  <!-- ============================================================= -->
-  <!-- LOGO -->
-  <!-- ============================================================= -->
-
-  <img id="home-logo" src="img/logo/logo.png" alt="Legacies of War Logo">
-
-  
-  <!-- ============================================================= -->
-  <!-- CREDITS BUTTON -->
-  <!-- ============================================================= -->
-
-  <a id="credits" href="credits.html">Credits</a>
-
-
-  <!-- ============================================================= -->
-  <!-- HOME PAGE TITLE & SUBTITLE -->
-  <!-- ============================================================= -->
-
-  <div class="container">
-    <div class="row">
-      <h1 id="home-title">Multimedia Experience</h1>
-      <p id="home-subtitle">This experience serves to educate the public about the U.S.-led secret war carried out in Laos from the mid 1960s through the 1970s.</p>
+  <div class="home-menu">
+    <div class="home-row">
+      <a class="item" href="oral-stories.html">
+        <div class="item-image">
+          <img class="round-image" src="../images/firepit.png" alt="Fire Pit Image">
+        </div>
+        <div class="item-title">Oral Histories</div>
+        <div class="item-subtitle">Stories told by history’s first-hand witnesses.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item oral-stories --> 
+      <a class="item" href="#">
+        <div class="item-image">
+          <img class="round-image" src="../images/bombs.png" alt="Fire Pit Image">
+        </div>
+        <div class="item-title">Everyday Dangers</div>
+        <div class="item-subtitle">Villagers face dangers performing ordinary tasks.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item everday-dangers --> 
+      <a class="item" href="#">
+        <div class="item-image">
+          <img class="round-image" src="../images/airplane.png" alt="Fire Pit Image">
+        </div>
+        <div class="item-title">Military Operations</div>
+        <div class="item-subtitle">Bombing campaigns over Laos were extensive.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item military-operations --> 
+      <a class="item" href="#">
+        <div class="item-image">
+          <img class="round-image" src="../images/girlonbike.png" alt="Fire Pit Image">
+        </div>
+        <div class="item-title">Lao Diaspora</div>
+        <div class="item-subtitle">Refugees spread all over the world to freedom.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item lao-diaspora --> 
+      <a class="item" href="#">
+        <div class="item-image">
+          <img class="round-image" src="../images/uxoremoval.png" alt="Fire Pit Image">
+        </div>
+        <div class="item-title">UXO Removal</div>
+        <div class="item-subtitle">Removal of unexploded ordances demand time and patience.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item uxo-removal --> 
     </div>
-  </div>
+  </div><!--/.home-menu--> 
 
-
-  <!-- ============================================================= -->
-  <!-- NAVIGATION CARDS -->
-  <!-- ============================================================= -->
-
-  <!-- ORAL STORIES CARD -->
-  <a href="oralstories.html">
-    <div id="oral-menu">
-      <div id="oral-img" class="home-menu-img"></div>
-      <div class="home-nav-title">Oral Histories</div>
-      <div class="home-nav-content">Stories told by history’s first-hand witnesses.</div>
-      <div class="rectangle"></div>
-    </div>
-  </a>
-  </div>
-
-  <!-- EVERYDAY DANGERS CARD -->
-  <a href="everydaydangers.html">
-    <div id="danger-menu">
-      <div id="danger-img" class="home-menu-img"></div>
-      <div class="home-nav-title">Everyday Dangers</div>
-      <div class="home-nav-content">Villagers face dangers performing ordinary tasks.</div>
-      <div class="rectangle"></div>
-    </div>
-  </a>
-
-  <!-- MILITARY OPERATIONS CARD -->
-  <a href="militaryoperations.html">
-    <div id="military-menu">
-      <div id="military-img" class="home-menu-img"></div>
-      <div class="home-nav-title">Military Operations</div>
-      <div class="home-nav-content">Bombing campaigns over Laos were extensive.</div>
-      <div class="rectangle"></div>
-    </div>
-  </a>
-
-
-  <!-- LAO DIASPORA CARD -->
-  <a href="laodiaspora.html">
-    <div id="diaspora-menu">
-      <div id="diaspora-img" class="home-menu-img"></div>
-      <div class="home-nav-title">Lao Diaspora</div>
-      <div class="home-nav-content">Refugees spread all over the world to freedom.</div>
-      <div class="rectangle"></div>
-    </div>
-  </a>
-
-  <!-- UXO REMOVAL CARD -->
-  <a href="uxoremoval.html">
-    <div id="uxo-menu">
-      <div id="uxo-img" class="home-menu-img"></div>
-      <div class="home-nav-title">UXO Removal</div>
-      <div class="home-nav-content">Removal of unexploded ordances demand time and patience.</div>
-      <div class="rectangle"></div>
-    </div>
-  </a>
-
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="assets/main.js"></script>
 </body>
-</html>
+</html>å
