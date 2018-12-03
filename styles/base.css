@@ -78,3 +78,60 @@ p.video-time {
   font-size: 14px;
   color: #000000;
 }
+/* ================================= 
+  Media Queries
+==================================== */
+
+/* --------- Small Screens --------- */
+@media (min-width: 320px) {
+
+  /* -------- Main Header  -------- */
+  .main-header {
+    display: flex;
+  }
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* --------- Media Card --------- */ 
+  .media-card {
+    display: flex;
+    color: #000000;
+    margin: 5px;	
+    background: #ffffff;
+  }
+  .item {
+    flex: 1 500px;;
+  }
+  .video-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .media-content {
+    padding: 40px;
+  }
+
+}
+
+/* --------- Medium Screens --------- */
+@media (min-width: 769px) {
+
+  /* -------- Main Content -------- */  
+  .main-content {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px;
+  }
+  .media-card {
+    flex: 1 500px;
+  }
+
+}
+
+/* --------- Larger Screens --------- */
+@media (min-width: 1025px) {
+
+
+}
