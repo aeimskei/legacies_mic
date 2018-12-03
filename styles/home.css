@@ -25,45 +25,6 @@ body {
 a {
 	text-decoration: none;
 }
-.button {
-  /* button shape */
-  width: 90px;
-  height: 38px;
-  background: rgba(0, 0, 0, 0.5);
-  /* text */
-  font-family: Lato;
-  font-style: normal;
-  line-height: normal;
-  font-size: 14px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  opacity: 0.6;
-  padding-top: 10px;
-}
-h1.heading {
-  margin-top: 100px;
-  margin-bottom: 0px;
-  font-family: Josefin Sans;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  font-size: 72px;
-  text-align: center;
-  text-transform: uppercase;
-  color: #FFFFFF;
-  text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
-}
-p.subtitle {
-  margin-bottom: 50px;
-  font-family: Josefin Sans;
-  font-style: normal;
-  font-weight: 300;
-  line-height: normal;
-  font-size: 30px;
-  text-align: center;
-  color: #FFFFFF;
-}
 
 /* ================================= 
   Media Queries
@@ -117,6 +78,13 @@ p.subtitle {
     padding-right: 150px;
     padding-left: 150px;
     flex: 1;
+  }
+  .heading {
+    margin-top: 100px;
+    margin-bottom: 0px;
+  }
+  .subtitle {
+    margin-bottom: 50px;
   }
 
   /* ---------- Home Menu ---------- */
@@ -184,6 +152,9 @@ p.subtitle {
     object-fit: fill;
     object-position: center;
   }
+
+  /* --------- Oral Stories --------- */
+  
 
 }
 

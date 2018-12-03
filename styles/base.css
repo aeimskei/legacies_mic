@@ -1,0 +1,78 @@
+/* ================================= 
+  Base Element Styles
+==================================== */
+* {
+	box-sizing: border-box;
+}
+body {
+  /* creates sticky footer */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; 
+}
+a {
+	text-decoration: none;
+}
+.button {
+  /* button shape */
+  width: 90px;
+  height: 38px;
+  background: rgba(0, 0, 0, 0.5);
+  /* text */
+  font-family: Lato;
+  font-style: normal;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  opacity: 0.6;
+  padding-top: 10px;
+}
+h1.heading {
+  margin-bottom: 0px;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  font-size: 72px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  text-shadow: 0px 4px 7px rgba(0, 0, 0, 0.25);
+}
+p.subtitle {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 30px;
+  text-align: center;
+  color: #FFFFFF;
+}
+h3.media-title {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 23px;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #000000;
+  text-transform: uppercase;
+}
+p.media-details {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: normal;
+  line-height: normal;
+  font-size: 18px;
+  color: #666666;
+}
+p.video-time {
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  font-size: 14px;
+  color: #000000;
+}
