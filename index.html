@@ -1,94 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google Icon Font-->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <!-- Compiled and minified CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:400,700|Lato:400,700" rel="stylesheet">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="css/home.css">
-  <link rel="stylesheet" href="css/main.css">
-  <meta charset="UTF-8">
   <!--Let browser know website is optimized for mobile-->
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Lato:400,700" rel="stylesheet">
+  <!-- Custom Style CSS -->
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/home.css">
   <!-- Icon for Browser Tab -->
-  <link rel="shortcut icon" type="image/png" href="img/logo/logo_400x400.png" />
-  <title>Legacies MIC | Home</title>
+  <link rel="shortcut icon" type="image/png" href="images/logo_400x400.png" />
+  <title>Legacies MX | Home</title>
 </head>
 <body>
 
-  <!-- ============================================================= -->
-  <!-- NAVBAR -->
-  <!-- ============================================================= -->
+  <header class="main-header">
+    <img id="home-logo" src="images/logo.png" alt="Legacies of War Logo">
+    <a id="credits-btn" class="header-col-right button" href="credits.html">Credits</a> 
+  </header><!--/.main-header-->  
 
-  <div class="navbar-fixed">
-    <nav class="grey darken-4">
-      <div class="nav-wrapper">
-        <!-- logo and navbar large screen -->
-        <a href="index.html" class="brand-logo logo hide-on-med-and-down"><img src="img/logo/logo.png" alt="Legacies of War Logo"></a>
-        <!-- logo and navbar switch to mobile screen -->
-        <a href="index.html" class="brand-logo brand-small show-on-medium-and-down hide-on-large-only">Legacies</a>
-        <!-- navbar mobile mode -->
-        <a href="#" data-target="mobile-nav" class="sidenav-trigger">
-          <i class="material-icons">menu</i>
-        </a>
-        <ul class="left hide-on-med-and-down">
-          <span class="right about-nav">
-            <li>
-              <a href="about.html">About</a>
-            </li>
-          </span>
-          <li>
-            <a href="oralstories.html">Oral Stories</a>
-          </li>
-          <li>
-            <a href="danger.html">Everyday Dangers</a>
-          </li>
-          <li>
-            <a href="militaryops.html">Military Operations</a>
-          </li>
-          <li>
-            <a href="diaspora.html">Lao Diaspora</a>
-          </li>
-          <li>
-            <a href="uxoremoval.html">UXO Removal</a>
-          </li>
-        </ul>
-      </div>
-    </nav>
-  </div>
+  <div class="main-content">
+    <h1 class="heading">Multimedia Experience</h1>
+    <p class="subtitle">This experience serves to educate the public about the U.S.-led secret war carried out in Laos from the mid 1960s through the 1970s.</p>
+  </div><!--/.main-content-->   
 
-  <!-- ============================================================= -->
-  <!-- SIDENAV for MOBILE -->
-  <!-- ============================================================= -->
+  <div class="home-menu">
+    <div class="home-row">
+      <a class="item" href="oral-stories.html">
+        <div class="item-image">
+          <img class="round-image" src="../images/firepit.png" alt="Fire Pit Image">
+        </div>
+        <div class="item-title">Oral Histories</div>
+        <div class="item-subtitle">Stories told by history’s first-hand witnesses.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item oral-stories --> 
+      <a class="item" href="everyday-dangers.html">
+        <div class="item-image">
+          <img class="round-image" src="../images/bombs.png" alt="Bombs Image">
+        </div>
+        <div class="item-title">Everyday Dangers</div>
+        <div class="item-subtitle">Villagers face dangers performing ordinary tasks.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item everday-dangers --> 
+      <a class="item" href="military-operations.html">
+        <div class="item-image">
+          <img class="round-image" src="../images/airplane.png" alt="Airplane Image">
+        </div>
+        <div class="item-title">Military Operations</div>
+        <div class="item-subtitle">Bombing campaigns over Laos were extensive.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item military-operations --> 
+      <a class="item" href="lao-diaspora.html">
+        <div class="item-image">
+          <img class="round-image" src="../images/girlonbike.png" alt="Image of Lao school girl on bicycle">
+        </div>
+        <div class="item-title">Lao Diaspora</div>
+        <div class="item-subtitle">Refugees spread all over the world to freedom.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item lao-diaspora --> 
+      <a class="item" href="uxo-removal.html">
+        <div class="item-image">
+          <img class="round-image" src="../images/uxoremoval.png" alt="Image of people working in the field for UXO removal">
+        </div>
+        <div class="item-title">UXO Removal</div>
+        <div class="item-subtitle">Removal of unexploded ordances demand time and patience.</div>
+        <div class="item-rectangle">
+          <img class="rectangle" src="../images/rectangle.png" alt="Rectangle Shape">
+        </div>
+      </a><!--/.item uxo-removal --> 
+    </div>
+  </div><!--/.home-menu--> 
 
-  <!-- initialized in main.js -->
-  <ul class="sidenav grey darken-4 white-text" id="mobile-nav">
-    <li>
-      <a href="about.html">About</a>
-    </li>
-    <li>
-      <a href="oralstories.html">Oral Stories</a>
-    </li>
-    <li>
-      <a href="danger.html">Everyday Dangers</a>
-    </li>
-    <li>
-      <a href="militaryops.html">Military Operations</a>
-    </li>
-    <li>
-      <a href="diaspora.html">Lao Diaspora</a>
-    </li>
-    <li>
-      <a href="uxoremoval.html">UXO Removal</a>
-    </li>
-  </ul>
-  
-  <!-- Compiled and minified JavaScript -->
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-  <script src="assets/main.js"></script>
 </body>
 </html>
