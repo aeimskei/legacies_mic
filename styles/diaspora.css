@@ -15,12 +15,6 @@ body {
     ),
     url('../images/girlonbike.png');
   background-size: cover;
-  /* fixes the logo top gap */
-  margin: 0;
-  /* creates sticky footer */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; 
 }
 
 /* ================================= 

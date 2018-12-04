@@ -15,12 +15,6 @@ body {
     ),
     url('../images/uxoremoval.png');
   background-size: cover;
-  /* fixes the logo top gap */
-  margin: 0;
-  /* creates sticky footer */
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh; 
 }
 p.subtitle-padding {
   padding-bottom: 50px;
@@ -30,3 +24,25 @@ p.subtitle-padding {
   margin: 5px;	
   background: transparent;
 }  
+
+/* ================================= 
+  Media Queries
+==================================== */
+
+/* --------- Small Screens --------- */
+@media (min-width: 320px) {
+
+
+}
+
+/* --------- Medium Screens --------- */
+@media (min-width: 769px) {
+
+
+}
+
+/* --------- Larger Screens --------- */
+@media (min-width: 1025px) {
+
+
+}
