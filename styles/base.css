@@ -9,6 +9,8 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100vh; 
+  /* fixes the logo top gap and space around footer */
+  margin: 0;
 }
 a {
   color:inherit;
@@ -98,6 +100,9 @@ p.video-time {
 .menu_items {
   display: flex;
 }
+.menu_items a:hover {
+	color: gray;
+}
 .menu_item_left {
   margin: auto;
   padding-right: 40px;
@@ -111,6 +116,9 @@ p.video-time {
 .menu_items_center {
   display: flex;
   margin: auto;
+}
+.menu_items_center a:hover {
+	color: gray;
 }
 .menu_link {
   margin: auto;

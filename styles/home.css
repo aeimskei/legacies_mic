@@ -15,8 +15,6 @@ body {
     ),
     url('../images/bombies.png');
   background-size: cover;
-  /* fixes the logo top gap */
-  margin: 0;
 }
 
 /* ================================= 
