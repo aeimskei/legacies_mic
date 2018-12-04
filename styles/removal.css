@@ -23,7 +23,10 @@ p.subtitle-padding {
   display: flex;
   margin: 5px;	
   background: transparent;
-}  
+}
+.main-content {
+  flex: 1;
+}
 
 /* ================================= 
   Media Queries

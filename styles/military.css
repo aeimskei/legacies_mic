@@ -19,6 +19,9 @@ body {
 p.subtitle-padding {
   padding-bottom: 350px;
 }
+.main-content {
+  flex: 1;
+}
 
 /* ================================= 
   Media Queries
