@@ -11,6 +11,7 @@ body {
   min-height: 100vh; 
 }
 a {
+  color:inherit;
 	text-decoration: none;
 }
 .button {
@@ -79,6 +80,45 @@ p.video-time {
   color: #000000;
 }
 
+/* menu bar */
+.menu {
+  background-color: rgba(0, 0, 0, 0.7);
+  height: 87px;
+  display: flex;
+  font-family: Josefin Sans;
+  font-style: normal;
+  font-weight: bold;
+  line-height: normal;
+  font-size: 14px;
+  text-align: center;
+  text-transform: uppercase;
+  opacity: 0.6;
+  color: #FFFFFF;
+}
+.menu_items {
+  display: flex;
+}
+.menu_item_left {
+  margin: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.menu_item_right {
+  margin: auto;
+  padding-right: 40px;
+  padding-left: 40px;
+}
+.menu_items_center {
+  display: flex;
+  margin: auto;
+}
+.menu_link {
+  margin: auto;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+
 /* ================================= 
   Media Queries
 ==================================== */
@@ -128,6 +168,9 @@ p.video-time {
   .media-card {
     flex: 1 500px;
   }
+
+  /* ---------- Menu Bar ---------- */  
+
 
 }
 
