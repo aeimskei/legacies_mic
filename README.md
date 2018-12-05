@@ -7,6 +7,7 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Remove all old files, redo for redesign and responsive layouts
 - [x] Flexbox CSS (no libraries)
 
+- [x] Fix sticky footer issue
 - [ ] Pop-up for video (resources: https://codepen.io/imprakash/pen/GgNMXO, https://jsfiddle.net/carmijoon/pZbkX/)
 
 ## Home Page
@@ -29,7 +30,9 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Media card (two per row)
 - [x] Media card (image and content)
 - [ ] Media card (play button)
-- [ ] Menu Bar
+- [x] Menu Bar
+- [ ] Menu Bar (highlight on hover)
+- [ ] Active on Click
 
 - [ ] Small Media Query
 - [x] Medium Media Query
@@ -42,7 +45,9 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Media card (two per row)
 - [x] Media card (image and content)
 - [ ] Media card (play button)
-- [ ] Menu Bar
+- [x] Menu Bar
+- [ ] Menu Bar (highlight on hover)
+- [ ] Active on Click
 
 - [ ] Small Media Query
 - [x] Medium Media Query
@@ -56,7 +61,9 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Media card (image and content)
 - [x] Media card (add margin-top to push media card to bottom)
 - [ ] Media card (play button)
-- [ ] Menu Bar
+- [x] Menu Bar
+- [ ] Menu Bar (highlight on hover)
+- [ ] Active on Click
 
 - [ ] Small Media Query
 - [x] Medium Media Query
@@ -66,7 +73,9 @@ Interactive educational app about impact of the Secret War in Laos.
 
 - [x] Header container (title subtitle)
 - [x] Map container (flex wrap)
-- [ ] Menu Bar
+- [x] Menu Bar
+- [ ] Menu Bar (highlight on hover)
+- [ ] Active on Click
 
 - [ ] Small Media Query
 - [x] Medium Media Query
@@ -81,7 +90,9 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Media card (add margin-top to push media card to a bit)
 - [x] Media card (clear card)
 - [ ] Media card (play button)
-- [ ] Menu Bar
+- [x] Menu Bar
+- [ ] Menu Bar (highlight on hover)
+- [ ] Active on Click
 
 - [ ] Small Media Query
 - [x] Medium Media Query
@@ -90,4 +101,6 @@ Interactive educational app about impact of the Secret War in Laos.
 ## Credits
 
 - [x] Header container (title subtitle)
-- [ ] Menu Bar
+- [x] Menu Bar
+- [ ] Menu Bar (highlight on hover, the whole block)
+- [ ] Active on Click
