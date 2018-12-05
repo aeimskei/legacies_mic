@@ -16,6 +16,9 @@ body {
     url('../images/girlonbike.png');
   background-size: cover;
 }
+.map-container {
+  flex: 1;
+}
 
 /* ================================= 
   Media Queries

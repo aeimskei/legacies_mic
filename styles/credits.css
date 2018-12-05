@@ -16,6 +16,9 @@ body {
     url('../images/candle.png');
   background-size: cover;
 }
+.main-header {
+  flex: 1;
+}
 
 /* ================================= 
   Media Queries

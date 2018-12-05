@@ -16,6 +16,9 @@ body {
     url('../images/bombs.png');
   background-size: cover;
 }
+.main-content {
+  flex: 1;
+}
 
 
 /* ================================= 

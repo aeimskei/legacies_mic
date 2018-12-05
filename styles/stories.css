@@ -16,6 +16,9 @@ body {
     url('../images/firepit.png');
   background-size: cover;
 }
+.main-content {
+  flex: 1;
+}
 
 /* ================================= 
   Media Queries
