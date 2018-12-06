@@ -104,3 +104,7 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Menu Bar
 - [ ] Menu Bar (highlight on hover, the whole block)
 - [ ] Active on Click
+
+- [ ] Small Media Query
+- [x] Medium Media Query
+- [x] Large Media Query
