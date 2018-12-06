@@ -8,7 +8,9 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Flexbox CSS (no libraries)
 
 - [x] Fix sticky footer issue
-- [ ] Pop-up for video (resources: https://codepen.io/imprakash/pen/GgNMXO, https://jsfiddle.net/carmijoon/pZbkX/)
+- [ ] Pop-up for video (resources: https://codepen.io/imprakash/pen/GgNMXO, https://jsfiddle.net/carmijoon/pZbkX/, https://codepen.io/jorgereyes/pen/XKPayW?fbclid=IwAR0klMvBv_6aBilPuTm0hu_MyuswOfSMtPnJoVc4uJic_hniCUS21eL1BDI)
+- [x] Tester deployed site via Surge.sh (http://pointless-quartz.surge.sh)
+- [ ] How to tear down tester surge deployed site (https://surge.sh/help/tearing-down-a-project)
 
 ## Home Page
 
