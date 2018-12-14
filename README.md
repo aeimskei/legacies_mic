@@ -8,6 +8,9 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Flexbox CSS (no libraries)
 - [x] Fix sticky footer issue
 - [x] Fix responsive menu (medium and large viewport)
+- [ ] Menu convert to mobile version
+- [ ] Convert map data to JSON instead later
+- [ ] Change out State names on map to text version instead of `<path>`
 - [ ] Pop-up for video (resources: https://codepen.io/imprakash/pen/GgNMXO, https://jsfiddle.net/carmijoon/pZbkX/, https://codepen.io/jorgereyes/pen/XKPayW?fbclid=IwAR0klMvBv_6aBilPuTm0hu_MyuswOfSMtPnJoVc4uJic_hniCUS21eL1BDI)
 
 ## Home Page
@@ -78,10 +81,11 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Active on Click
 - [x] SVG US Map
 - [x] Info Box (pop-up on hover, State and Population)
-- [ ] Add State names on the SVG map
-- [ ] Test responsiveness of map on mobiles devices
+- [x] Responsive SVG Map (hover for data)
+- [x] Add State names on the SVG map
+- [x] Test responsiveness of map on mobiles devices (Google Chrome DevTools simulator)
 
-- [ ] Small Media Query
+- [x] Small Media Query
 - [x] Medium Media Query
 - [x] Large Media Query
 
