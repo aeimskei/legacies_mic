@@ -2,12 +2,12 @@
 // Function for Map on Lao Diaspora
 // ==============================================
 
-$("path, circle").hover(function(e) {
+$(".state, circle").hover(function(e) {
   $('#info-box').css('display','block');
   $('#info-box').html($(this).data('info'));
 });
 
-$("path, circle").mouseleave(function(e) {
+$(".state, circle").mouseleave(function(e) {
   $('#info-box').css('display','none');
 });
 
