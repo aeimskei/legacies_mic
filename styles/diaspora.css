@@ -16,6 +16,9 @@ body {
     url('../images/girlonbike.png');
   background-size: cover;
 }
+.center, .center-align {
+  text-align: center;
+}
 /* map */
 .map-container {
   flex: 1;
