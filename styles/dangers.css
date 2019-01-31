@@ -19,26 +19,3 @@ body {
 .main-content {
   flex: 1;
 }
-
-
-/* ================================= 
-  Media Queries
-==================================== */
-
-/* --------- Small Screens --------- */
-@media (min-width: 320px) {
-
-
-}
-
-/* --------- Medium Screens --------- */
-@media (min-width: 769px) {
-
-
-}
-
-/* --------- Larger Screens --------- */
-@media (min-width: 1025px) {
-
-
-}

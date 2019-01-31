@@ -16,36 +16,3 @@ body {
     url('../images/uxoremoval.png');
   background-size: cover;
 }
-p.subtitle-padding {
-  padding-bottom: 50px;
-}
-.clear-card {
-  display: flex;
-  margin: 5px;	
-  background: transparent;
-}
-.main-content {
-  flex: 1;
-}
-
-/* ================================= 
-  Media Queries
-==================================== */
-
-/* --------- Small Screens --------- */
-@media (min-width: 320px) {
-
-
-}
-
-/* --------- Medium Screens --------- */
-@media (min-width: 769px) {
-
-
-}
-
-/* --------- Larger Screens --------- */
-@media (min-width: 1025px) {
-
-
-}

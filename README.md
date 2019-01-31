@@ -8,10 +8,11 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Flexbox CSS (no libraries)
 - [x] Fix sticky footer issue
 - [x] Fix responsive menu (medium and large viewport)
-- [ ] Menu convert to mobile version
+- [x] Menu convert to mobile version
 - [ ] Convert map data to JSON instead later
-- [ ] Change out State names on map to text version instead of `<path>`
+- [x] Change out State names on map to text version instead of `<path>`
 - [ ] Pop-up for video (resources: https://codepen.io/imprakash/pen/GgNMXO, https://jsfiddle.net/carmijoon/pZbkX/, https://codepen.io/jorgereyes/pen/XKPayW?fbclid=IwAR0klMvBv_6aBilPuTm0hu_MyuswOfSMtPnJoVc4uJic_hniCUS21eL1BDI)
+- [ ] Add sound to Menu
 
 ## Home Page
 
@@ -22,9 +23,9 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Home Menu item (content)
 - [x] Home Menu item (rectangle background)
 
-- [ ] Small Media Query
+- [x] Small Media Query
 - [x] Medium Media Query
-- [ ] Large Media Query
+- [x] Large Media Query
 
 ## Oral Stories
 
@@ -37,7 +38,7 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Active on Click
 - [ ] Media card (play button)
 
-- [ ] Small Media Query
+- [x] Small Media Query
 - [x] Medium Media Query
 - [x] Large Media Query
 
@@ -52,7 +53,7 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Active on Click
 - [ ] Media card (play button)
 
-- [ ] Small Media Query
+- [x] Small Media Query
 - [x] Medium Media Query
 - [x] Large Media Query
 
@@ -68,7 +69,7 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Active on Click
 - [ ] Media card (play button)
 
-- [ ] Small Media Query
+- [x] Small Media Query
 - [x] Medium Media Query
 - [x] Large Media Query
 
@@ -84,6 +85,8 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Responsive SVG Map (hover for data)
 - [x] Add State names on the SVG map
 - [x] Test responsiveness of map on mobiles devices (Google Chrome DevTools simulator)
+- [ ] Add for mobile, touch off map to clear State name
+- [ ] Add sound on clicks/hover to map
 
 - [x] Small Media Query
 - [x] Medium Media Query
@@ -102,7 +105,7 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Active on Click
 - [ ] Media card (play button)
 
-- [ ] Small Media Query
+- [x] Small Media Query
 - [x] Medium Media Query
 - [x] Large Media Query
 
@@ -113,6 +116,6 @@ Interactive educational app about impact of the Secret War in Laos.
 - [x] Menu Bar (highlight on hover, the whole block)
 - [x] Active on Click
 
-- [ ] Small Media Query
+- [x] Small Media Query
 - [x] Medium Media Query
 - [x] Large Media Query

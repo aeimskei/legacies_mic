@@ -16,16 +16,22 @@
 </head>
 <body>
 
+  <!-- ===================================================================== -->
+  <!-- TOP HEADER -->
+  <!-- ===================================================================== -->
   <header class="main-header">
     <h1 class="heading">Lao Diaspora</h1>
     <p class="subtitle subtitle-padding">A diaspora is defined as group of people living outside their traditional homeland. The mass exodus of Laotians was a direct result of the military operations in Laos.</p>
   </header><!--/.main-header--> 
 
+  <!-- ===================================================================== -->
+  <!-- MAP SVG CODE -->
+  <!-- ===================================================================== -->
   <div class="map-container">
     <div id="info-box"></div>
     <svg version="1.1" id="us-map" preserveAspectRatio="xMinYMin meet" width="1280" height="588.63361" viewBox="-250 0 1000 570" enable-background="new 174 100 959 593" xml:space="preserve" xmlns="http://www.w3.org/2000/svg">
 
-      <path
+    <path
       id="HI"
       data-info="<div>State: Hawaii</div><div>Population: 2,437</div>"
       class="state"
@@ -186,6 +192,7 @@
       data-info="<div>State: Washington</div><div>Population: 9,382</div>"
       class="state"
       d="m 146.76396,80.381289 c -8.37536,-2.264829 -13.49761,-3.026892 -19.23611,-2.861854 -4.30166,0.123728 -8.13462,-0.08854 -8.51776,-0.471677 -0.38314,-0.38313 -2.13131,-0.196479 -3.88481,0.414787 -1.78156,0.621051 -4.49875,0.73681 -6.15864,0.262349 -1.63375,-0.46697 -3.97844,-0.970632 -5.21045,-1.119211 -1.23202,-0.14859 -5.145693,-1.223903 -8.69712,-2.3896 -3.902802,-1.281043 -8.072964,-1.910736 -10.541795,-1.591824 -5.828181,0.752856 -9.311281,-1.724802 -8.66028,-6.160401 0.609147,-4.150213 -1.617828,-9.858787 -3.845988,-9.858787 -0.907881,0 -2.220832,-0.779632 -2.917602,-1.732521 -0.69677,-0.952879 -2.707556,-1.802936 -4.468408,-1.888983 -1.760874,-0.08607 -3.560983,-0.651763 -4.000275,-1.257115 -1.304046,-1.79701 -0.942779,-3.818505 0.682398,-3.818505 2.085157,0 3.138944,-3.214967 1.644159,-5.016077 -1.594237,-1.920966 -0.478853,-4.768187 1.867946,-4.768187 1.64554,0 1.621612,-0.233952 -0.233626,-2.283951 C 62.909174,33.987299 62.5623,32.112253 62.74968,25.91539 62.876755,21.7132 62.489723,17.357583 61.88961,16.236263 60.721271,14.053198 62.39712,5.5094696 63.993684,5.5094696 c 0.470655,0 2.041736,1.269519 3.491308,2.82114 3.11108,3.3301404 6.067298,4.9621014 14.096156,7.7817194 6.319798,2.219397 8.651507,2.12087 8.651507,-0.365616 0,-0.847057 0.856124,-1.501493 1.902496,-1.45429 1.13654,0.05127 1.355382,0.306585 0.54357,0.634162 -0.747409,0.301573 -1.358925,1.258604 -1.358925,2.126707 0,1.766669 3.131714,6.9375 4.201809,6.937674 1.247004,2.18e-4 0.545864,-16.7929714 -0.806583,-19.3193234 -2.114879,-3.9505159 -0.611136,-4.4840301 6.648798,-2.3590619 12.30039,3.6003049 47.87234,12.8877133 60.62011,15.8271673 6.87616,1.585551 12.63343,2.988951 12.79391,3.118658 0.16047,0.129696 -0.6942,3.365939 -1.89932,7.19163 -3.02537,9.604223 -10.89459,46.796548 -10.89459,51.491374 0,4.628457 0.24328,4.621413 -15.21997,0.43989 l 0,-1.1e-5 z" />
+   
     <path
       id="TX"
       data-info="<div>State: Texas</div><div>Population: 11,626</div>"
@@ -1896,21 +1903,37 @@
     </svg>
   </div><!--/.map-container --> 
 
-  <nav>
-    <ul class="menu">
-      <li class="menu-item push-left"><a href="index.html">Home</a></li>
-      <li class="menu-item"><a href="oral-stories.html">Oral Stories</a></li>
-      <li class="menu-item"><a href="everyday-dangers.html">Everyday Dangers</a></li>
-      <li class="menu-item"><a href="military-operations.html">Military Operations</a></li>
-      <li class="active menu-item"><a href="lao-diaspora.html">Lao Diaspora</a></li>
-      <li class="menu-item"><a href="uxo-removal.html">UXO Removal</a></li>
-      <li class="menu-item push-right"><a href="credits.html">Credits</a></li>
+  <!-- ===================================================================== -->
+  <!-- MOBILE MENU -->
+  <!-- ===================================================================== -->
+  <div class="mobile-menu">
+    <ul class="dots center-align">
+      <a href="index.html"><li class="dot"></li></a>
+      <a href="oral-stories.html"><li class="dot"></li></a>
+      <a href="everyday-dangers.html"><li class="dot"></li></a>
+      <a href="military-operations.html"><li class="dot"></li></a>
+      <a href="lao-diaspora.html"><li class="dot active-item"></li></a>
+      <a href="uxo-removal.html"><li class="dot"></li></a>
+      <a href="credits.html"><li class="dot"></li></a>
     </ul>
-  </nav><!--/.menu--> 
-  
+  </div>
+
+  <!-- ===================================================================== -->
+  <!-- LARGER SCREEN MENU -->
+  <!-- ===================================================================== -->
+  <footer>
+    <ul class="menu">
+      <a href="index.html" class="push-left"><li class="menu-item">Home</li></a>
+      <a href="oral-stories.html"><li class="menu-item">Oral Stories</li></a>
+      <a href="everyday-dangers.html"><li class="menu-item">Everyday Dangers</li></a>
+      <a href="military-operations.html"><li class="menu-item">Military Operations</li></a>
+      <a href="lao-diaspora.html"><li class="menu-item selected">Lao Diaspora</li></a>
+      <a href="uxo-removal.html"><li class="menu-item">UXO Removal</li></a>
+      <a href="credits.html" class="push-right"><li class="menu-item">Credits</li></a>
+    </ul>
+  </footer><!--/.menu--> 
 
   <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
-  <script src="scripts/main.js"></script>
-
+  <script src="assets/diaspora.js"></script>
 </body>
 </html>

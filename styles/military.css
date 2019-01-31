@@ -22,25 +22,33 @@ p.subtitle-padding {
 .main-content {
   flex: 1;
 }
-
+.main-content {
+  padding: 600px 0 0 0;
+}
 /* ================================= 
-  Media Queries
+  Media Queries - iPhone 4
+  Media (Video Clips) Styling
 ==================================== */
-
-/* --------- Small Screens --------- */
-@media (min-width: 320px) {
-
-
+@media (min-width: 320px) and (max-width: 480px) {
+  .main-content {
+    padding: 50px 0 0 0;
+  }
 }
-
-/* --------- Medium Screens --------- */
-@media (min-width: 769px) {
-
-
+/* ================================= 
+  Media Queries - iPad
+  Media (Video Clips) Styling
+==================================== */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .main-content {
+    padding: 0 0 0 0;
+  }
 }
-
-/* --------- Larger Screens --------- */
-@media (min-width: 1025px) {
-
-
+/* ================================= 
+  Media Queries - iPad Pro
+  Media (Video Clips) Styling
+==================================== */
+@media (min-width: 1024px) and (max-width: 1366px) {
+  .main-content {
+    padding: 700px 0 0 0;
+  }
 }
