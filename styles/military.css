@@ -22,16 +22,13 @@ p.subtitle-padding {
 .main-content {
   flex: 1;
 }
-.main-content {
-  padding: 600px 0 0 0;
-}
 /* ================================= 
   Media Queries - iPhone 4
   Media (Video Clips) Styling
 ==================================== */
 @media (min-width: 320px) and (max-width: 480px) {
   .main-content {
-    padding: 50px 0 0 0;
+    padding: 20px 0 0 0;
   }
 }
 /* ================================= 
@@ -40,7 +37,7 @@ p.subtitle-padding {
 ==================================== */
 @media (min-width: 768px) and (max-width: 1024px) {
   .main-content {
-    padding: 0 0 0 0;
+    padding: 20px 0 0 0;
   }
 }
 /* ================================= 
@@ -49,6 +46,6 @@ p.subtitle-padding {
 ==================================== */
 @media (min-width: 1024px) and (max-width: 1366px) {
   .main-content {
-    padding: 700px 0 0 0;
+    padding: 20px 0 0 0;
   }
 }

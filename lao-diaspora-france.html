@@ -1,31 +1,37 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <title>Legacies of War</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <!-- Import Google Icon Font -->
-  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Let browser know website is optimized for mobile-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,700|Lato:400,700" rel="stylesheet">
-  <!-- Import materialize.css -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <link rel="stylesheet" type="text/css" media="screen" href="styles/base.css" />
-  <link rel="stylesheet" type="text/css" media="screen" href="styles/credits.css" />
+  <!-- Custom Style CSS -->
+  <link rel="stylesheet" href="styles/base.css">
+  <link rel="stylesheet" href="styles/diaspora.css">
   <!-- Icon for Browser Tab -->
   <link rel="shortcut icon" type="image/png" href="images/logo_400x400.png" />
-  <title>Legacies MX | Credits</title>
+  <title>Legacies MX | Lao Diaspora</title>
 </head>
 <body>
 
   <!-- ===================================================================== -->
-  <!-- MAIN HEADER -->
+  <!-- TOP HEADER -->
   <!-- ===================================================================== -->
   <header class="main-header">
-    <h1 class="heading">Credits</h1>
-    <p class="subtitle">Many talented and generous human beings contributed to Legacies' Multimedia Experience. Above all, this interface is dedicated to the thousands of victims whose voices echo silently throughout history.</p>
+    <h1 class="heading">Lao Diaspora</h1>
+    <p class="subtitle subtitle-padding">A diaspora is defined as group of people living outside their traditional homeland. The mass exodus of Laotians was a direct result of the Unexploded Ordinances in Laos.</p>
+    <p class="subtitle subtitle-padding"><a href="lao-diaspora.html">US</a> · <a href="lao-diaspora-canada.html">Canada</a> · <a href="lao-diaspora-australia.html">Australia</a> · <u>France</u></p>
   </header><!--/.main-header--> 
+
+  <!-- ===================================================================== -->
+  <!-- MAP SVG CODE -->
+  <!-- ===================================================================== -->
+  <div class="map-container">
+    <div id="info-box"></div>
+    
+  </div><!--/.map-container --> 
 
   <!-- ===================================================================== -->
   <!-- MOBILE MENU -->
@@ -36,11 +42,11 @@
       <a href="oral-stories.html"><li class="dot"></li></a>
       <a href="everyday-dangers.html"><li class="dot"></li></a>
       <a href="unexploded-ordinances.html"><li class="dot"></li></a>
-      <a href="lao-diaspora.html"><li class="dot"></li></a>
+      <a href="lao-diaspora.html"><li class="dot active-item"></li></a>
       <a href="current-status.html"><li class="dot"></li></a>
-      <a href="credits.html"><li class="dot active-item"></li></a>
+      <a href="credits.html"><li class="dot"></li></a>
     </ul>
-  </div><!--/.mobile-menu--> 
+  </div>
 
   <!-- ===================================================================== -->
   <!-- LARGER SCREEN MENU -->
@@ -51,11 +57,13 @@
       <a href="oral-stories.html"><li class="menu-item">Oral Stories</li></a>
       <a href="everyday-dangers.html"><li class="menu-item">Everyday Dangers</li></a>
       <a href="unexploded-ordinances.html"><li class="menu-item">Unexploded Ordinances</li></a>
-      <a href="lao-diaspora.html"><li class="menu-item">Lao Diaspora</li></a>
+      <a href="lao-diaspora.html"><li class="menu-item selected">Lao Diaspora</li></a>
       <a href="current-status.html"><li class="menu-item">Current Status</li></a>
-      <a href="credits.html" class="push-right"><li class="menu-item selected">Credits</li></a>
+      <a href="credits.html" class="push-right"><li class="menu-item">Credits</li></a>
     </ul>
   </footer><!--/.menu--> 
 
+  <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+  <script src="assets/diaspora.js"></script>
 </body>
 </html>

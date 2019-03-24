@@ -40,12 +40,20 @@ p.subtitle {
   font-size: 30px;
   text-align: center;
   color: #FFFFFF;
-  padding-left: 100px;
-  padding-right: 100px
+  padding-left: 10%;
+  padding-right: 10%;
 }
 /* ================================= 
 Media (Video Clips) Styling
 ==================================== */
+.main-header {
+	margin-bottom: 4em;
+}
+.main-content, .map-container {
+	margin-bottom: 60px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
 .card.horizontal .card-image img {
   max-width: 100%;
 }
@@ -75,8 +83,11 @@ p.video-time {
   font-weight: 300;
   line-height: normal;
   font-size: 16px;
-  color: #000000;
+  color: #2e75f9;
   padding-top: 30px;
+}
+.video-time > :before {
+	content: "► ";
 }
 span.warning {
   font-family: Josefin Sans;
@@ -88,6 +99,12 @@ span.warning {
 /* ================================= 
   Navigation Menu - Large Screen
 ==================================== */
+footer, .mobile-menu {
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
 footer ul {
   display: flex;
   background-color: rgba(0, 0, 0, 0.7);
@@ -98,6 +115,9 @@ footer ul {
 footer li {
   margin: 0 10px;
   list-style: none
+}
+.mobile-menu {
+  background-color: rgba(0, 0, 0, 0.7);
 }
 .menu-item {
   text-align: center;
